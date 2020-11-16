@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    line-height: 20%;
+    border-bottom: 1px solid #f1dcdc;
+}
+
+#logo {
+    width: 320px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.header-logo {
+    font-family: "cursive";
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+
+.display-4 {
+    font-size: 2.5rem;
+}
+
+@media (min-width: 768px) {
+    .display-4 {
+        font-size: 3rem;
+    }
+}
+
+body {
+    background: url(../imagenes/fondo3.jpg);
+    width: 100%;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.text-blanco {
+    color: white;
+}
+
+.busqueda {
+    color: whitesmoke;
+    border-color: whitesmoke;
+}
+
+.form-register {
+    width: 400px;
+    background: transparent;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(187, 81, 81);
+}
+
+.form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: rgb(187, 81, 81);
+    text-align: center;
+}
+
+.controls {
+    width: 100%;
+    background: transparent;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    font-family: Verdana;
+    font-size: 20px;
+    color: gray;
+}
+
+.form-register .buttons {
+    width: 100%;
+    background: #8bcdd4;
+    border-radius: 5px;
+    padding: 12px;
+    color: gray;
+    margin: 16px 0;
+    font-family: Verdana;
+    font-size: 16px;
+}
