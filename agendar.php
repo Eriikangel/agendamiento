@@ -11,12 +11,12 @@ function insertar ($conexion){
     $nombre = $_POST['nombre'];
     $apellido =$_POST['apellido'];
     
-    $cita = "SELECT FROM agendar";
-    mysqli_query ($conexion, $cita);
-    
-    echo $cita;
+    $cita = "SELECT count(*) AS 'total', 'fecha' FROM agendar where 'fecha' = '2020-11-17'";
+    $result = mysqli_query ($conexion, $cita);
+    $row = mysqli_fetch_assoc($result);
+    echo $row['total'];
 
-    if ($cita <=2) {
+    if ($row['total'] <=2) {
         $consulta = "INSERT INTO agendar(fecha, hora, nombre, apellido) 
         VALUES ('$fecha','$hora','$nombre','$apellido')";
         mysqli_query ($conexion, $consulta);
