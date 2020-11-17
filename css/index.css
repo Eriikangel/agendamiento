@@ -52,13 +52,6 @@
     }
 }
 
-body {
-    background: url(../imagenes/fondo3.jpg);
-    width: 100%;
-    background-size: 100%;
-    background-attachment: fixed;
-}
-
 .text-blanco {
     color: white;
 }
