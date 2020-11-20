@@ -16,6 +16,13 @@
     margin-left: 20px;
 }
 
+body {
+    background: url(../imagenes/fondo3.jpg);
+    width: 100%;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
 .header-logo {
     font-family: "cursive";
     font-size: 30px;
