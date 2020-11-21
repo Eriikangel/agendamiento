@@ -130,3 +130,14 @@ body {
     font-family: Verdana;
     font-size: 16px
 }
+
+.form-register .consultar {
+    width: 100%;
+    background: #8bcdd4;
+    border-radius: 5px;
+    padding: 12px;
+    color: gray;
+    margin: 16px 0;
+    font-family: Verdana;
+    font-size: 16px
+}
