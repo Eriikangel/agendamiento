@@ -108,3 +108,25 @@ body {
     font-family: Verdana;
     font-size: 16px;
 }
+
+.form-register .editar {
+    width: 100%;
+    background: rgb(144, 221, 144);
+    border-radius: 5px;
+    padding: 12px;
+    color: gray;
+    margin: 16px 0;
+    font-family: Verdana;
+    font-size: 16px
+}
+
+.form-register .eliminar {
+    width: 100%;
+    background: rgb(221, 144, 144);
+    border-radius: 5px;
+    padding: 12px;
+    color: gray;
+    margin: 16px 0;
+    font-family: Verdana;
+    font-size: 16px
+}
