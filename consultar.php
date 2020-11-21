@@ -5,7 +5,7 @@ $sql = "select * from agendamiento where nombre='"  . $nombre  .  "'";
 $resultado = mysqli_query($conexion, $sql) or die ('Error en la insertacion de datos');
 while ($consulta=mysqli_fetch_array($resultado)
 {
-    echo("nombre:" . $consulta['nombre']);
+echo("nombre:" . $consulta['nombre']);
 }
 echo("<br><br><a href='index.html'> Regresar a Agendar Cita</a>   ")
 ?>
