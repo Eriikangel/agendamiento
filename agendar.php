@@ -42,7 +42,4 @@ function Agendamiento($conexion){
     mysqli_close ($conexion); 
     return $row;
 }
-function editar($conexion){
-
-}
 ?>
