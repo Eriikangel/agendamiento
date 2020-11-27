@@ -17,7 +17,7 @@
 }
 
 body {
-    background: url(../imagenes/cvale.jpg);
+    background: url(../imagenes/Diseño2.png);
     width: 100%;
     background-size: 100%;
     background-attachment: fixed;
@@ -26,7 +26,7 @@ body {
 .header-logo {
     font-family: "cursive";
     font-size: 30px;
-    color: whitesmoke;
+    color: blue;
 }
 
 .nav-scroller {
@@ -60,7 +60,7 @@ body {
 }
 
 .text-blanco {
-    color: white;
+    color: rgb(119, 111, 111);
 }
 
 .busqueda {
